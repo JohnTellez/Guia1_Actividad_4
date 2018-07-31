@@ -1,11 +1,16 @@
 import java.util.Scanner;
 /**
- * Datos de entrada: - 
- *                   - Altura
+ * Datos de entrada: - Numero de pasajeros
+ *                   - Dias de Hospedaje
  *                   
- * Datos de salida:  - Radio
- *                   - Area
- *                   - Volumen del tronco de cono
+ * Datos de salida:  - Cantidad de pasajeros
+ *                   - Cantidad de buses
+ *                   - Costo alquiler de buses
+ *                   - Costo de la comida
+ *                   - Habitaciones reservadas
+ *                   - Costo habitaciones * dia
+ *                   - Costo habitaciones Total
+ *                   - Costo total del paseo
  */
 public class Ejercicio4
 {
