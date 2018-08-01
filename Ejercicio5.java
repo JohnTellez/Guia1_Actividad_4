@@ -16,6 +16,7 @@ public class Ejercicio5
        int clase1 = 25;
        int clase2 = 45;
        int clase3 = 60;
+       char Respuesta ;
        
        Pclase1 = clase1 * 500000;
        Pclase2 = clase2 * 200000;
@@ -32,7 +33,7 @@ public class Ejercicio5
        System.out.println("*Costo de clase 3: $125000 * Persona");
        System.out.println("\n-------------------------------------------------------------------------------------------------------------------------------\n");
        
-       
+             do {
  
             System.out.println("1. Clase Ejecutiva");
             System.out.println("2. Clase Turista");
@@ -40,29 +41,79 @@ public class Ejercicio5
             System.out.println("4. Total de usuarios y ganacias");
             System.out.println("5. Salir");
           
- 
-                System.out.println("Escribe una de las opciones");
+                
+            System.out.println("\n\nEscribe una de las opciones");
+                
                 Tclase = teclado.nextInt();
                 Tusuarios = clase1 + clase2 + clase3;
                 Tganancias = Pclase3 + Pclase3 + Pclase3;
+                
+                
  
                 if (Tclase == 1) {
                     
                         System.out.println("Se han registrado " + clase1 + " usuarios en clase ejecutiva, por valor de: $" + Pclase1 + " durante este mes.");
-                        System.out.println("\n\nDesea realizar una nueva consulta?? S/n");
+                        System.out.println("\n\n¿Desea realizar otra consulta? presione s/n ");
+                        Respuesta = teclado.next().charAt(0);
+                        if (Respuesta == 'n') {
+                        
+                            System.out.println("Saliendo, gracias.");
+                            System.exit(1);
+                        }
+                        if (Respuesta != 's' && Respuesta != 'n'){
+                            
+                            System.out.println("Opcion no valida...cerrando");
+                            System.exit(1);
+                        }
                     } 
                 if (Tclase == 2) {
                     
                         System.out.println("Se han registrado " + clase2 + " usuarios en clase turista, por valor de: $" + Pclase2 + " durante este mes.");
+                        System.out.println("\n\n¿Desea realizar otra consulta? presione s/n ");
+                        Respuesta = teclado.next().charAt(0);
+                        if (Respuesta == 'n') {
+                        
+                            System.out.println("Saliendo, gracias.");
+                            System.exit(1);
+                        }
+                        if (Respuesta != 's' && Respuesta != 'n'){
+                            
+                            System.out.println("Opcion no valida...cerrando");
+                            System.exit(1);
+                        }
                     }
                 if (Tclase == 3) {
                     
                         System.out.println("Se han registrado " + clase3 + " usuarios en clase economica, por valor de: $" + Pclase3 + " durante este mes.");
+                        System.out.println("\n\n¿Desea realizar otra consulta? presione s/n ");
+                        Respuesta = teclado.next().charAt(0);
+                        if (Respuesta == 'n') {
+                        
+                            System.out.println("Saliendo, gracias.");
+                            System.exit(1);
+                        }
+                        if (Respuesta != 's' && Respuesta != 'n'){
+                            
+                            System.out.println("Opcion no valida...cerrando");
+                            System.exit(1);
+                        }
                     }
                 if (Tclase == 4) {
                     
                         System.out.println("Total de usuarios: "+ Tusuarios);
                         System.out.println("Total de ganacias obtenidas: $"+ Tganancias);
+                        System.out.println("\n\n¿Desea realizar otra consulta? presione s/n ");
+                        Respuesta = teclado.next().charAt(0);
+                        if (Respuesta == 'n') {
+                        
+                            System.out.println("Saliendo, gracias.");
+                            System.exit(1);
+                        }
+                        if (Respuesta != 's' && Respuesta != 'n'){
+                            
+                            System.out.println("Opcion no valida...cerrando");
+                            System.exit(1);
+                        }
                     }
                 if (Tclase == 5) {
                     
@@ -70,7 +121,7 @@ public class Ejercicio5
                         System.exit(1);
                     } 
                    
-               
+                } while(Tclase!=5);
     }
        
  

@@ -19,6 +19,8 @@ public class Ejercicio1
        //Recoger datos
        System.out.println("El tronco Piramide Area y Volumen");
        
+       System.out.println("-------------------------------------------------------------------------------------------------------------------------------\n\n");
+       
        System.out.print("Ingrese el valor del Lado base mayor: ");
        LbaseMayor = teclado.nextDouble();
        
@@ -31,7 +33,7 @@ public class Ejercicio1
        System.out.print("Ingrese el valor de la Altura: ");
        Altura = teclado.nextDouble();
        
-       
+         
        // Calculo de los datos
        
        AbaseMayor = LbaseMayor * LbaseMayor;
@@ -47,12 +49,15 @@ public class Ejercicio1
                    
        Areas = AbaseMayor + AbaseMenor + (PbaseMayor + PbaseMenor) / 2 * Apotema;
        
+       System.out.println("-------------------------------------------------------------------------------------------------------------------------------\n\n");
+       
+       System.out.println("Resultados:\n");
+       
        // Resultados
        System.out.println("Área del tronco pirámide: " + Areas + " cm2");
        
-       //System.out.println("Area del cuadrado inferior: " + areapiramideinf + " m2");
-       
-       System.out.println("Volumen del tronco pirámide: " + volumentronco + " m3");
+              
+       System.out.println("Volumen del tronco pirámide: " + Math.round(volumentronco * 100d) / 100d + " m3");
        
    }
 }
