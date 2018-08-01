@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.InputMismatchException;
 /**
  * Write a description of class Ejercicio5 here.
  * 
@@ -11,7 +10,7 @@ public class Ejercicio5
     public static void main(String[] args)
     {
        Scanner teclado = new Scanner(System.in);
-       boolean salir = false;
+      
        int Tclase, Pclase1, Pclase2, Pclase3, Tusuarios, Tganancias; 
        
        int clase1 = 25;
