@@ -1,0 +1,123 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+10
+AbaseMayor
+1
+0
+10
+AbaseMenor
+1
+0
+6
+Altura
+1
+0
+6
+3
+13
+volumentronco
+1
+0
+5
+Areas
+1
+0
+10
+PbaseMayor
+1
+0
+6
+3
+10
+PbaseMenor
+1
+0
+7
+Apotema
+1
+0
+10
+LbaseMenor
+1
+0
+6
+1
+10
+LbaseMayor
+1
+0
+4
+1
+40
+' Ingrese el valor del Lado base mayor:'
+5
+1
+10
+LbaseMayor
+4
+1
+39
+'Ingrese el valor del Lado base menor:'
+5
+1
+10
+LbaseMenor
+4
+1
+34
+' Ingrese el valor de la Apotema:'
+5
+1
+7
+Apotema
+4
+1
+33
+'Ingrese el valor de la Altura: '
+5
+1
+6
+Altura
+6
+3
+10
+AbaseMayor
+23
+LbaseMayor * LbaseMayor
+10
+AbaseMenor
+23
+LbaseMenor * LbaseMenor
+10
+PbaseMayor
+20
+Apotema * LbaseMayor
+6
+3
+10
+PbaseMenor
+20
+Apotema * LbaseMenor
+13
+volumentronco
+73
+Altura / 3 * ( AbaseMayor + AbaseMenor + (sqrt(AbaseMayor * AbaseMenor)))
+5
+Areas
+65
+AbaseMayor + AbaseMenor + (PbaseMayor + PbaseMenor) / 2 * Apotema
+4
+1
+34
+'Área del tronco pirámide: ',Areas
+4
+1
+45
+'Volumen del tronco pirámide: ',volumentronco
+1

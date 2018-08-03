@@ -1,0 +1,190 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+7
+Pgordos
+1
+0
+7
+Pflacos
+1
+0
+6
+Ptotal
+1
+0
+6
+3
+4
+Breq
+1
+1
+6
+Abuses
+6
+400000
+6
+Tbuses
+1
+0
+6
+3
+5
+Dhosp
+1
+0
+6
+Comida
+5
+15000
+8
+PgordosC
+1
+0
+6
+3
+8
+PflacosC
+1
+0
+7
+Tcomida
+1
+0
+6
+Rhabit
+1
+0
+6
+3
+6
+Chabit
+6
+100000
+8
+Chbitdia
+1
+0
+7
+ChabitT
+1
+0
+6
+3
+9
+Chabitdia
+1
+0
+11
+CtotalPaseo
+1
+0
+8
+Pgordos1
+1
+0
+4
+1
+37
+'Ingrese numero de pasajeros gordos:'
+5
+1
+8
+Pgordos1
+6
+1
+7
+Pgordos
+12
+Pgordos1 * 2
+4
+1
+37
+'Ingrese numero de pasajeros flacos:'
+5
+1
+7
+Pflacos
+4
+1
+38
+'Ingrese numero de dias de hospedaje:'
+5
+1
+5
+Dhosp
+6
+3
+6
+Ptotal
+17
+Pgordos + Pflacos
+8
+PgordosC
+24
+Pgordos * Comida * 5 / 2
+8
+PflacosC
+20
+Pflacos * Comida * 3
+6
+1
+7
+Tcomida
+29
+(PgordosC + PflacosC) * Dhosp
+7
+0
+1
+11
+Ptotal > 40
+13
+6
+1
+4
+Breq
+19
+round(Ptotal / 40) 
+13
+6
+3
+6
+Tbuses
+13
+Breq * Abuses
+6
+Rhabit
+14
+(Ptotal / 4)+1
+9
+Chabitdia
+15
+Rhabit * Chabit
+6
+2
+7
+ChabitT
+17
+Chabitdia * Dhosp
+11
+CtotalPaseo
+26
+Tbuses + Tcomida + ChabitT
+4
+1
+123
+'Cantidad de pasajeros:  ',Ptotal,' Cantidad de buses requeridos:  ',Breq,' El costo del alquiler del bus es de:  $',Tbuses
+4
+1
+222
+' El costo de la comida es de:  $',Tcomida,' durante los ' ,Dhosp,'  dias',' El costo de las habitaciones por dia es de:  $',Chabitdia,' El costo de las habitaciones total es de:  $', ChabitT,' durante los ' ,Dhosp,' dias'
+4
+1
+95
+'*** EL COSTO TOTAL DEL PASEO A MELGAR ES DE:  $',CtotalPaseo,' DURANTE LOS ',Dhosp,' DIAS ***'
+1

@@ -1,0 +1,98 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+10
+LPentagono
+1
+0
+10
+RPentagono
+1
+0
+10
+APentagono
+1
+0
+6
+1
+5
+AreaP
+1
+0
+4
+1
+70
+'Ingrese el valor del lado del pentagono, de lo contrario presione 0:'
+5
+1
+10
+LPentagono
+4
+1
+71
+'Ingrese el valor del Radio del pentagono, de lo contrario presione 0:'
+5
+1
+10
+RPentagono
+4
+1
+45
+'Ingrese el valor del Apotema del pentagono:'
+5
+1
+10
+APentagono
+6
+1
+5
+AreaP
+35
+((LPentagono * 6) * APentagono) / 2
+7
+0
+1
+14
+RPentagono = 0
+13
+7
+0
+1
+14
+APentagono = 0
+7
+0
+1
+14
+APentagono = 0
+13
+6
+2
+10
+APentagono
+47
+sqrt(pow(RPentagono, 2)-pow(LPentagono / 2, 2))
+5
+AreaP
+33
+((LPentagono * 6) * APentagono)/2
+13
+13
+6
+1
+5
+AreaP
+27
+1.72048 * pow(LPentagono,2)
+13
+13
+4
+1
+53
+'El Area del Apotema del pentagono es:  ',AreaP,' cm'
+1

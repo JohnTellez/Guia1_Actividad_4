@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+5
+LadoA
+1
+0
+5
+LadoB
+1
+0
+5
+LadoC
+1
+0
+6
+3
+2
+Pi
+4
+3.14
+10
+Sperimetro
+1
+0
+4
+Area
+1
+0
+6
+1
+7
+Cradius
+1
+0
+4
+1
+50
+'Ingrese la medida del lado A del triangulo (cm):'
+5
+1
+5
+LadoA
+4
+1
+50
+'Ingrese la medida del lado B del triangulo (cm):'
+5
+1
+5
+LadoB
+4
+1
+50
+'Ingrese la medida del lado C del triangulo (cm):'
+5
+1
+5
+LadoC
+6
+3
+10
+Sperimetro
+27
+(LadoA + LadoB + LadoC) / 2
+4
+Area
+87
+sqrt(Sperimetro * ((Sperimetro - LadoA) * (Sperimetro - LadoB) * (Sperimetro - LadoC)))
+7
+Cradius
+123
+(LadoA * LadoB * LadoC) / (4 * Pi *(sqrt(Sperimetro * (Sperimetro - LadoA) * (Sperimetro - LadoB) * (Sperimetro - LadoC))))
+4
+1
+127
+'Semiperimetro: ',round(Sperimetro * 100) / 100,' cm',' Area:  ',round(Area * 100) / 100,' m2',' Circumradius:  ',Cradius,' cm'
+1

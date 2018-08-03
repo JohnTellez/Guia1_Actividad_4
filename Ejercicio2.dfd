@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+9
+Distancia
+2
+79
+8
+GalonesT
+4
+1.77
+8
+CargaMax
+4
+2000
+6
+2
+12
+NumeroViajes
+1
+0
+8
+GalonesR
+1
+0
+4
+1
+54
+'Kilometros del recorrido Bogota - Sasaima:',Distancia
+4
+1
+41
+'Cantidad de galones por viaje:',GalonesT
+4
+1
+38
+'Ingrese el peso de la carga (kilos):'
+5
+1
+4
+Peso
+6
+2
+12
+NumeroViajes
+41
+(Peso * Distancia / CargaMax) / Distancia
+8
+GalonesR
+23
+NumeroViajes * GalonesT
+4
+1
+123
+'Numero de viajes a realizar:  ',NumeroViajes,' Numero de galones de gasolina requeridos para todos los viajes:  ',GalonesR
+1

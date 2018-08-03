@@ -1,0 +1,75 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+Mcirculo
+1
+0
+5
+Radio
+1
+0
+5
+DosPi
+4
+6.28
+6
+3
+4
+Area
+1
+0
+7
+Volumen
+1
+0
+2
+Pi
+4
+3.14
+6
+1
+6
+Altura
+1
+0
+4
+1
+37
+'Ingrese la medida del circulo (cm):'
+5
+1
+8
+Mcirculo
+4
+1
+25
+'Ingrese la altura (cm):'
+5
+1
+6
+Altura
+6
+3
+5
+Radio
+16
+Mcirculo / DosPi
+4
+Area
+18
+Pi * Radio * Radio
+7
+Volumen
+13
+Area * Altura
+4
+1
+83
+'Radio: ',Radio,' cm',' Area:',Area,' m2',' Volumen Tronco de Cono: ',Volumen,' m3'
+1

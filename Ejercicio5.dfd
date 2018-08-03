@@ -1,0 +1,136 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+6
+clase1
+2
+25
+6
+clase2
+2
+45
+6
+clase3
+2
+60
+6
+3
+7
+Pclase3
+1
+0
+9
+Tusuarios
+1
+0
+10
+Tganancias
+1
+0
+6
+3
+7
+Pclase1
+13
+clase1*500000
+7
+Pclase2
+13
+clase2*200000
+7
+Pclase3
+13
+clase3*125000
+6
+1
+9
+Respuesta
+2
+''
+4
+1
+29
+'Escribe una de las opciones'
+4
+1
+113
+'1.Clase ejecutiva ',' 2. Clase Turista ',' 3. Clase Economica ',' 4. Total de usuarios y ganacias ',' 5. Salir' 
+5
+1
+6
+Tclase
+6
+2
+9
+Tusuarios
+24
+clase1 + clase2 + clase3
+10
+Tganancias
+27
+Pclase3 + Pclase3 + Pclase3
+7
+0
+1
+10
+Tclase = 1
+7
+0
+1
+10
+Tclase = 2
+7
+0
+1
+10
+Tclase = 3
+7
+0
+1
+10
+Tclase = 4
+7
+0
+1
+10
+Tclase = 5
+4
+1
+29
+'Opcion no valida...cerrando'
+13
+4
+1
+20
+'Saliendo, gracias.'
+13
+13
+4
+1
+75
+'Total de usuarios: ',Tusuarios,' Total de ganacias obtenidas: ',Tganancias
+13
+13
+4
+1
+104
+' Se han registrado',clase3,' usuarios en clase ejecutiva, por valor de: $',Pclase3,' durante este mes.'
+13
+13
+4
+1
+104
+' Se han registrado',clase2,' usuarios en clase ejecutiva, por valor de: $',Pclase2,' durante este mes.'
+13
+13
+4
+1
+104
+' Se han registrado',clase1,' usuarios en clase ejecutiva, por valor de: $',Pclase1,' durante este mes.'
+13
+1
